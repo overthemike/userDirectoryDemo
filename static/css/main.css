@@ -1,0 +1,37 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+body {
+  margin:0;
+  padding:0;
+  font-family:"Helvetica Nueue", "Helvetica", "Arial", sans-serif;
+}
+
+#users {
+  display:flex;
+  list-style:none;
+  flex-wrap:wrap;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+#users li {
+  border:1px solid #ccc;
+  width:240px;
+  padding:20px;
+  margin:20px;
+}
+
+.name {
+  font-size:20px;
+  color:rgb(56,116,203);
+  font-weight:bold;
+  margin:10px 0;
+}
+
+#users li span {
+  display:block;
+}
